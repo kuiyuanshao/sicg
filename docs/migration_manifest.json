@@ -1,0 +1,1440 @@
+{
+  "source_repository": "https://github.com/kuiyuanshao/phd-thesis",
+  "source_commit": "c572ae00ce6b32656c9337cc84dcf39a1eb0263d",
+  "files": [
+    {
+      "source": "LICENSE",
+      "path": "LICENSE",
+      "source_sha256": "02ff10be7e5063e0efad0f154801ed2ad155b515395c202cd86c6d95ce24a565",
+      "sha256": "02ff10be7e5063e0efad0f154801ed2ad155b515395c202cd86c6d95ce24a565"
+    },
+    {
+      "source": "SICG/R/03_run_simulation_sicg.R",
+      "path": "legacy/R/03_run_simulation_sicg.R",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "SICG/R/discriminators.R",
+      "path": "legacy/R/discriminators.R",
+      "source_sha256": "6cc6eb192d7860e2d19055dc07cc1b5f0021505aca92d48ff6ca3940582afce9",
+      "sha256": "dee12b003bbc0ba122fcd41833545235949b9ae2e9ddd599b9a8655e3325e608"
+    },
+    {
+      "source": "SICG/R/encoding.R",
+      "path": "legacy/R/encoding.R",
+      "source_sha256": "d32f49d869c2fdf581e8e94129bf2d49d40c52011c793e732f437f2060d49fd3",
+      "sha256": "7ca835335836ece4239a67dcd92f8409f1a72607e232a25d1bdeaa3df006af10"
+    },
+    {
+      "source": "SICG/R/generateImpute.R",
+      "path": "legacy/R/generateImpute.R",
+      "source_sha256": "d8877f8f99ea3f6c4c2b7f991c929a3faecdeb6ec248456c933b7d0ff5574c98",
+      "sha256": "9248e6ef2aa1fbdb844a5b7b55efdc02c92aeeb65b80ad968da9893e0f35c936"
+    },
+    {
+      "source": "SICG/R/generators.R",
+      "path": "legacy/R/generators.R",
+      "source_sha256": "b893e71f67430c7e232532265019d9eb4afe6a3efff3ede3bf4ccf2e0f2b6e49",
+      "sha256": "6bc5bcc0ae34830d4655041945ebb79227cecf5628fadacb1499687713132758"
+    },
+    {
+      "source": "SICG/R/normalizing.R",
+      "path": "legacy/R/normalizing.R",
+      "source_sha256": "1acb1ff1fd13fe6f35d4d0359b3d70b798f778cd915634e283fe23e88d13b0ae",
+      "sha256": "8cd9f342386653bcaf6e6c54aced00f15afe029851b8d76294a9327a1ddb7609"
+    },
+    {
+      "source": "SICG/R/sampleBatch.R",
+      "path": "legacy/R/sampleBatch.R",
+      "source_sha256": "1bfce230e637843b32d23994b15c2e8e15dc0bc0df1de7dd7fb52a477204e4b2",
+      "sha256": "1204bffc0e3b435a904fdedef711b07de10dd412492afa2c16eadfd72d312de2"
+    },
+    {
+      "source": "SICG/R/tuner.R",
+      "path": "legacy/R/tuner.R",
+      "source_sha256": "f822d73e3ecd6238a6da58701acc8386e1b84907080e02d5798f18feba9e3ecb",
+      "sha256": "e92a52e7e3a619e3daf6a081d9a21dbd6bbafbca0d4630f959904db3cda8e1e9"
+    },
+    {
+      "source": "SICG/R/utils.R",
+      "path": "legacy/R/utils.R",
+      "source_sha256": "61e073ed442fe81cb72e2f136e3e4b6204048a7a14895f5aed3a6f30adbbb6eb",
+      "sha256": "162bcd47aaa459bf280a340b0a0c36fa63fdb8dc5cf045d1ded6e9ccedc66197"
+    },
+    {
+      "source": "SICG/__init__.py",
+      "path": "src/sicg/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "1f931968b16add38382a9c7452c126a0028dcf87cc59ed3a5119d51b8741af1b"
+    },
+    {
+      "source": "SICG/ablation/__init__.py",
+      "path": "experiments/ablation/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "SICG/ablation/analysis.R",
+      "path": "experiments/ablation/analysis.R",
+      "source_sha256": "0d08351f39cdfbb8fff63ed2e774dc6516270f759a7eee330d5d38d84764fcf4",
+      "sha256": "cf822d474d3d07c415e03d46343555c9baf5c108fa538dcf70d31c07288a2403"
+    },
+    {
+      "source": "SICG/ablation/bm_analysis.R",
+      "path": "experiments/ablation/bm_analysis.R",
+      "source_sha256": "48a0e803e9376fe52fd6f33287f6648fc5a9b06903cedec5215fa5e145d05d2b",
+      "sha256": "7e14ee100fe3b56e3969a43f96c3cd239797312141034e886684a8a5b974ede7"
+    },
+    {
+      "source": "SICG/ablation/bm_configs/config_bootstrap.yaml",
+      "path": "experiments/ablation/bm_configs/config_bootstrap.yaml",
+      "source_sha256": "cff072a337d3c1d4e7b23607513d6e02830c6c0aab25634d5c6d51f92d2f6785",
+      "sha256": "c5ab50a69623431e94564c28e27f81cabc9198558fae35a29cc2cf0314c27aa2"
+    },
+    {
+      "source": "SICG/ablation/bm_configs/config_dropout.yaml",
+      "path": "experiments/ablation/bm_configs/config_dropout.yaml",
+      "source_sha256": "7e0cc0bcd5aebe04f1607898f4c7c5a740f943fa4ecd90b566deab76469745b7",
+      "sha256": "9dd4fb5d8dfbd3b8fd81e54b50a8b618ae9cc22f364f95c649121c536d9d0e34"
+    },
+    {
+      "source": "SICG/ablation/bm_configs/config_none.yaml",
+      "path": "experiments/ablation/bm_configs/config_none.yaml",
+      "source_sha256": "3f9336fca9bc3ff88c7888c2e95eefb616eedc7e5df4a83ede4b479386a63ea9",
+      "sha256": "0d691abf21dda6846033d789c241d21eb61fc6063724d8e08250d9bd2e45bb02"
+    },
+    {
+      "source": "SICG/ablation/bm_configs/config_swag.yaml",
+      "path": "experiments/ablation/bm_configs/config_swag.yaml",
+      "source_sha256": "994f009b5a01df9013783396bc2c9e9775b5c625a0099fa3e4740dc65293ca35",
+      "sha256": "32bf00e577bd6e50d108df3ec9d5ff336e1161070bd9ccf9b9d50bed2b189326"
+    },
+    {
+      "source": "SICG/ablation/bvar/analysis_bvar.R",
+      "path": "experiments/ablation/bvar/analysis_bvar.R",
+      "source_sha256": "4c791a93eb25b439aafde5ac83e7c32b3549dbeea53ae7182028abc0a477bd9a",
+      "sha256": "e2416061c167811635a169b45495b27bc66c235e609c6f6556d9b70f7b6c8649"
+    },
+    {
+      "source": "SICG/ablation/bvar/result_configs/config_nutri_bootstrap.yaml",
+      "path": "experiments/ablation/bvar/result_configs/config_nutri_bootstrap.yaml",
+      "source_sha256": "cff072a337d3c1d4e7b23607513d6e02830c6c0aab25634d5c6d51f92d2f6785",
+      "sha256": "c5ab50a69623431e94564c28e27f81cabc9198558fae35a29cc2cf0314c27aa2"
+    },
+    {
+      "source": "SICG/ablation/bvar/result_configs/config_nutri_dropout.yaml",
+      "path": "experiments/ablation/bvar/result_configs/config_nutri_dropout.yaml",
+      "source_sha256": "7e0cc0bcd5aebe04f1607898f4c7c5a740f943fa4ecd90b566deab76469745b7",
+      "sha256": "9dd4fb5d8dfbd3b8fd81e54b50a8b618ae9cc22f364f95c649121c536d9d0e34"
+    },
+    {
+      "source": "SICG/ablation/bvar/result_configs/config_nutri_none.yaml",
+      "path": "experiments/ablation/bvar/result_configs/config_nutri_none.yaml",
+      "source_sha256": "3f9336fca9bc3ff88c7888c2e95eefb616eedc7e5df4a83ede4b479386a63ea9",
+      "sha256": "0d691abf21dda6846033d789c241d21eb61fc6063724d8e08250d9bd2e45bb02"
+    },
+    {
+      "source": "SICG/ablation/bvar/result_configs/config_nutri_swag.yaml",
+      "path": "experiments/ablation/bvar/result_configs/config_nutri_swag.yaml",
+      "source_sha256": "994f009b5a01df9013783396bc2c9e9775b5c625a0099fa3e4740dc65293ca35",
+      "sha256": "32bf00e577bd6e50d108df3ec9d5ff336e1161070bd9ccf9b9d50bed2b189326"
+    },
+    {
+      "source": "SICG/ablation/bvar/run_nutri_bvar.py",
+      "path": "experiments/ablation/bvar/run_nutri_bvar.py",
+      "source_sha256": "318859240b20a15fb7197e7ea55eeaba61f053504e03b7246d6dc0f851e50759",
+      "sha256": "240777f69dd111b2bc8333f45f6cc2a4984e66a0605711ff066214f6ea4ee347"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_bootstrap.yaml",
+      "path": "experiments/ablation/result_configs/config_bootstrap.yaml",
+      "source_sha256": "273c1661e6389c210f5a97eb6333e48d272724a2c05806d754a64941c32618aa",
+      "sha256": "db3355eec538569094ca2fd4be72ce640bda18d0127a33841f67b5bbe0df131f"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_dropout.yaml",
+      "path": "experiments/ablation/result_configs/config_dropout.yaml",
+      "source_sha256": "7c96a39ede8d4dcac3607b7f3641c214373886838db79b26108d33e922ca28c2",
+      "sha256": "b963521d8b9322f272c856cf4dbb27c0b67a9e4c5d1819dff3c31417f28bb699"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_pack.yaml",
+      "path": "experiments/ablation/result_configs/config_pack.yaml",
+      "source_sha256": "00273dd7370f29492eb24ec543c4f03352df92512af67e23fde41e596d3ad5ed",
+      "sha256": "417a7cff73a0cffe768fdb4c05e94ac13d1c9b3c6b3f24475c4b3f742de7681b"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_pack_mml.yaml",
+      "path": "experiments/ablation/result_configs/config_pack_mml.yaml",
+      "source_sha256": "24b3171989a63060f0f4bf20643d29fd5f455ff0eb920e11865f0a5f9050651f",
+      "sha256": "1de9efd486a049c3eae095134ae5ca5a0bad1c1b56383a943cac11f20c4a7afb"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_swag.yaml",
+      "path": "experiments/ablation/result_configs/config_swag.yaml",
+      "source_sha256": "ea9509556de3aa7eaac02fc4877d4f7473b4c0497be60ffcb757699205dfaac4",
+      "sha256": "23f0d95e4c81b5b7996d03fd8a28d145be96ae50dc77d3f90a9553068fcee89d"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_unpack.yaml",
+      "path": "experiments/ablation/result_configs/config_unpack.yaml",
+      "source_sha256": "e4331002f3580b01aa932b39fd0696877191a94c578e20e636c0a31fa8797b17",
+      "sha256": "745d36b2c2c94a7d8c19ebaf570dec79ecb2987ae0faa6459ba9aeda6b41f6a1"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_unpack_ce.yaml",
+      "path": "experiments/ablation/result_configs/config_unpack_ce.yaml",
+      "source_sha256": "ee432bbe0dfcb39e94b1c87e397bba2fddefd5667ade273f6a47df00d961173c",
+      "sha256": "8536b91882b0f500092a26b7f104fee671e5e1ad8e1b70f874b693a6bdbbc41f"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_unpack_info.yaml",
+      "path": "experiments/ablation/result_configs/config_unpack_info.yaml",
+      "source_sha256": "2234b244754c2adaed1bb5de16f7a911f7dfd32b7bad0719949c6cfb28214023",
+      "sha256": "9361181be09d71168861c326e36c811146cc2d8a4b55604f20ba6e338a82b468"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_unpack_residualmodeling.yaml",
+      "path": "experiments/ablation/result_configs/config_unpack_residualmodeling.yaml",
+      "source_sha256": "ee7abbe62f180f11a75c06d7cee793bcb43adf0dc01bc17f8ace328a3f7fa199",
+      "sha256": "f513680a30d74e7aeb6566a02c210071261e9c54e70517caa290e16f1a199c02"
+    },
+    {
+      "source": "SICG/ablation/result_configs/config_unpack_semisupervised.yaml",
+      "path": "experiments/ablation/result_configs/config_unpack_semisupervised.yaml",
+      "source_sha256": "ee79f353888fac3bc57c8311d00423f8180312fa39770b2beb47628f2b767b9d",
+      "sha256": "f5672baae7102c4f75a781e86e3cc008a96545d9eefd9ead350c6b760b707bc4"
+    },
+    {
+      "source": "SICG/ablation/run_ablation.py",
+      "path": "experiments/ablation/run_ablation.py",
+      "source_sha256": "ff70a4e35eb144b79dcd15bd49b3a49ab5193f1599658d5aff1c44026470c7e5",
+      "sha256": "3858fdc85ca230fa4e5b86d1fe6956aa03e1d7164268a50761e933a8768f3200"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_1.sl",
+      "path": "experiments/ablation/run_ablation_1.sl",
+      "source_sha256": "501756b58238974ad400ec1cc68476e010b559000f13f64a81f9a7b260cfe960",
+      "sha256": "1537b26699d3b5c64d444b532b3dbff81e4bad731708d4bef62fe780280575f8"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_10.sl",
+      "path": "experiments/ablation/run_ablation_10.sl",
+      "source_sha256": "df7926012ff946401ed6d37412c6dbcc3703a5b5fdf3d1bb24c0f4c588418a28",
+      "sha256": "a27219599ff7c3c65b424f5b163c8537206bdc69abc393dee1558d8c35c80157"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_2.sl",
+      "path": "experiments/ablation/run_ablation_2.sl",
+      "source_sha256": "5d703a27b9a93b5036aa1764891b43c864c21b90a9872baa872d4c2747fd40cd",
+      "sha256": "4145a521d3b225a1ce91dc8d5a785965188040ee5fd8b1b8af35320afefddfb9"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_3.sl",
+      "path": "experiments/ablation/run_ablation_3.sl",
+      "source_sha256": "447ec29ca7df26a3535ecdb5220e81e412c38d2d9afda2e94bec56b13bc51730",
+      "sha256": "ce072ce1353a5a87740bc43f24dd65b962fe86c08e2e33a3ea66392d26935117"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_4.sl",
+      "path": "experiments/ablation/run_ablation_4.sl",
+      "source_sha256": "7e0d79ae07354e19d7292e0fdb20de904846dc298824c07f7c271569635fa42f",
+      "sha256": "460e746b6d1405ea4422cb8aa180f4f8ad762b3d7689b328972d9802809553a2"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_5.sl",
+      "path": "experiments/ablation/run_ablation_5.sl",
+      "source_sha256": "cb98f09f0d4da4e8e908eb14a25e1f11aa77e84cfb8283275eeba1e0dcb524e1",
+      "sha256": "f9c5fa901ffcf83d1487015a18e178aa0b13c79d55d3ed46102ec8d9e0f9b2dd"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_6.sl",
+      "path": "experiments/ablation/run_ablation_6.sl",
+      "source_sha256": "657dfd1e8b524383f92bcc66646d0da48ef1f490706eb949f9c97a71c35606d2",
+      "sha256": "0f257aaf19ed0f9edaf62765839509eabc48d9e03e96b7ccbff1dea36872522b"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_7.sl",
+      "path": "experiments/ablation/run_ablation_7.sl",
+      "source_sha256": "bcc3e360f61ea691f5b07d84fe075def98281962ae56c14606d8615303677aeb",
+      "sha256": "1199fc16654e0fae28f191d0874aaffe11102548596e3f051956b669ed15f426"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_8.sl",
+      "path": "experiments/ablation/run_ablation_8.sl",
+      "source_sha256": "969e13aaf4a4f9942fe21790671722be84ce0145077c7a8b5374157f9d073405",
+      "sha256": "e9b825a6f80e5d25b2daa2df4a1a3bed465eea02a2b8d7b5c5f3fc345fe2a759"
+    },
+    {
+      "source": "SICG/ablation/run_ablation_9.sl",
+      "path": "experiments/ablation/run_ablation_9.sl",
+      "source_sha256": "6793094d85ba739f37e4d21a4de49f053287e976d5d162483aea2885e4b94134",
+      "sha256": "c9ffb566f5a4675bd90682163b339abca5d444dfc452f92ca1ba9b79f6761723"
+    },
+    {
+      "source": "SICG/ablation/run_bm_nutri.py",
+      "path": "experiments/ablation/run_bm_nutri.py",
+      "source_sha256": "70bf08156c544255397b175a6c16be3b802cd90e6ded16c6cf949b8bf8616f9e",
+      "sha256": "44fbc37b25d3ae9bfabf04a3ae7cc3fb5ffb302ee7fffa9721200e9bc882a739"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_BIAS_BOXPLOT.png",
+      "path": "experiments/ablation/simulations/results_SICG_BIAS_BOXPLOT.png",
+      "source_sha256": "62afd861eaaddfe9c329a57709f229f340211d8d75a7c084ec52bd8b67941fb6",
+      "sha256": "62afd861eaaddfe9c329a57709f229f340211d8d75a7c084ec52bd8b67941fb6"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_BM_BOXPLOT.png",
+      "path": "experiments/ablation/simulations/results_SICG_BM_BOXPLOT.png",
+      "source_sha256": "7ac8cf5615bfc599542486e9dd839faff78c6ff5b5fb7994fe541d00aa6e0dfe",
+      "sha256": "7ac8cf5615bfc599542486e9dd839faff78c6ff5b5fb7994fe541d00aa6e0dfe"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_BM_BY_COVARIATE.csv",
+      "path": "experiments/ablation/simulations/results_SICG_BM_BY_COVARIATE.csv",
+      "source_sha256": "b4353f600a595f1b52380999d0df11dd01795db0441b7dfb857f0026b5f014f2",
+      "sha256": "bec3f91c4e0f7a83e32ec3f8399b1744c28cf0478b4d8da1c2af4a11a9187f6f"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_BM_SUMMARY.csv",
+      "path": "experiments/ablation/simulations/results_SICG_BM_SUMMARY.csv",
+      "source_sha256": "e989369e74ca0650c4fea3d560ab8530b670d3b16d8bc9ae9584dd4f1a7a51a9",
+      "sha256": "44e941186fc1b0449dcb77706c3f80fadf5943107eff575e241858eb72084d71"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_MSE_DENSITY.png",
+      "path": "experiments/ablation/simulations/results_SICG_MSE_DENSITY.png",
+      "source_sha256": "25e16701d7b5488d39ba042860809b4355a07f6fcd972ff59732480754b9ce3f",
+      "sha256": "25e16701d7b5488d39ba042860809b4355a07f6fcd972ff59732480754b9ce3f"
+    },
+    {
+      "source": "SICG/ablation/simulations/results_SICG_SUMMARY.csv",
+      "path": "experiments/ablation/simulations/results_SICG_SUMMARY.csv",
+      "source_sha256": "00075d142e27380549480be4d8e6fe8b436748c2f994e314112158634bc1a33b",
+      "sha256": "8a8398c7a867dbb4183d23d76ceca500beb35bba68bf6b1c2398f088efa9161c"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_pack.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_pack.yaml",
+      "source_sha256": "20434adf00871099858eeec7da7922902fa597f8c56cbbd844d34c508fe365a6",
+      "sha256": "f1b7d4b21d652fe3d4b9dd6bd340b1f3fdf9d9a9f40712c0ac5bc24b4bddc4d5"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_pack_epochs.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_pack_epochs.yaml",
+      "source_sha256": "e0d27a854e1c175a6404d9558559c849eb8206cf10b69a8d37783715fd809213",
+      "sha256": "b2d7d2cacfcd2f6cef007f86b86903c882202f2f5202ec69d344c92863fece81"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_swag.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_swag.yaml",
+      "source_sha256": "d8d14b5b7e0f7e7676089b2f6eafaa02f97f78533b73575893da13d834fab568",
+      "sha256": "bb5b403bbff7a7bd15620f0f0c7dc32062403d067520a0a8161e166ee2af0321"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_swag_epochs.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_swag_epochs.yaml",
+      "source_sha256": "b450670250e99c01a443e4eadeb15d68d50936d75aeb4d4546a1322a7af5ce97",
+      "sha256": "6f3de0fd910768ce8070c0b031ef4dfef3f82349e186b32fb19851eb896705be"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_unpack.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_unpack.yaml",
+      "source_sha256": "fa07814ce0d4605a974e53e15174b46b0a07fbf4cd596cdd71c640114e6d3dd2",
+      "sha256": "14b4e3a143aaf6c681810358d8c371c489b9c64c24785fad377c53d62751f8a8"
+    },
+    {
+      "source": "SICG/ablation/tuning_configs/base_config_unpack_epochs.yaml",
+      "path": "experiments/ablation/tuning_configs/base_config_unpack_epochs.yaml",
+      "source_sha256": "46e34267007e8af0c1c49a4492c6d21b1019983fe4a1a95f8596f0d20a0feba7",
+      "sha256": "d45c8be9725ab3f1b23005e90865fc8799e2b01f6106fd9b1a9b2b87d7ef0f75"
+    },
+    {
+      "source": "SICG/ablation/tuning_sicg.py",
+      "path": "experiments/ablation/tuning_sicg.py",
+      "source_sha256": "f9a5f7bb1378cf7d00346575c4e6f08265fa2974a3dfffd31cb7faa373e6b3e1",
+      "sha256": "b86cdeab7d3c52b3febc3e0778e93533080cdc815f8d4663b17f42d3d8b3af32"
+    },
+    {
+      "source": "SICG/ablation/tuning_sicg_1_2.sl",
+      "path": "experiments/ablation/tuning_sicg_1_2.sl",
+      "source_sha256": "424272a7b2b5abbe0ba61913a4c0340f33637d76141c8f3a3b017f7c87c91458",
+      "sha256": "8675b0b23cdcc6d1246e988d74f78a8814c6fcdff8989634cdbbc29c9918723f"
+    },
+    {
+      "source": "SICG/ablation/tuning_sicg_3_4.sl",
+      "path": "experiments/ablation/tuning_sicg_3_4.sl",
+      "source_sha256": "fada4b304083997f9d8106e7c011854b4b84e655004e1ca0815207364108cef6",
+      "sha256": "0896168a3cd4eff452055b521ee8692837cb7d3c7944df3570ca66ea7b967484"
+    },
+    {
+      "source": "SICG/data_transformer.py",
+      "path": "src/sicg/data_transformer.py",
+      "source_sha256": "bc3a9d0cd9584b8f9c21a4b0882eefae61b4c96ee215d4ce6b73def56a5f486f",
+      "sha256": "fe98b94102006c1f6ccd00f21f8d386808ad20bc2df4b6c2eee068e0cc2853e7"
+    },
+    {
+      "source": "SICG/metric.py",
+      "path": "src/sicg/metric.py",
+      "source_sha256": "1262da84b032eb55b48d4bef65f9458c63d36cae43125a4facd616db99b8e0f4",
+      "sha256": "c343dcd178def1daaaaf8644b664bb8d871a071c8e28c5b0a4564b0e24d256d4"
+    },
+    {
+      "source": "SICG/networks.py",
+      "path": "src/sicg/networks.py",
+      "source_sha256": "27197d3dec2f506f820ab0e39dd6f858924532791c37964f6fe464384ed0411f",
+      "sha256": "aae5679eb3893080a8846b39ee8ec0f7d82eab4ca4b3661243717ddda4866f88"
+    },
+    {
+      "source": "SICG/requirements.txt",
+      "path": "src/sicg/requirements.txt",
+      "source_sha256": "6646c129802756a6279c1db7b6dd92f96cda1b27895a38a78b8dca024640271e",
+      "sha256": "f89cee4babbd8d0862c57759d4c97d93d74513eea15715b9be2e0ecb75c3dc85"
+    },
+    {
+      "source": "SICG/sicg.py",
+      "path": "src/sicg/sicg.py",
+      "source_sha256": "b97925154a8b8e8e8395857a765e6268cfee716629853252c7b28999b262366f",
+      "sha256": "2e1ea227082872a7a8c7f9c20c9e5bcbb857f64b34ae6aa22868052480706371"
+    },
+    {
+      "source": "SICG/swag.py",
+      "path": "src/sicg/swag.py",
+      "source_sha256": "17dfee35769410797e68520b0cfd1c8f42b9714226b800e401c551974cd5534f",
+      "sha256": "9419236da621c7bd5cd5d6fe79f7c54a42596b46849d2ac49202fc87c45786ab"
+    },
+    {
+      "source": "SICG/tuner.py",
+      "path": "src/sicg/tuner.py",
+      "source_sha256": "5795e46b001b44a4797ac6783887dde870683beb9dc572cc1ca887dadba35269",
+      "sha256": "a65c46d13f91d62b20643b2a3608c063c02279849b770743a45383d90aef2c59"
+    },
+    {
+      "source": "SICG/utils.py",
+      "path": "src/sicg/utils.py",
+      "source_sha256": "2040c9c6435174a6ddd2d9417b4d706ba64b25f8b7542e2886d6402aceb25a26",
+      "sha256": "3fb1fe4bef3b184dc48cf6c05ba607f6b32f26af384b7fe72cdd95f4d33ff691"
+    },
+    {
+      "source": "benchmarks/GAIN/__init__.py",
+      "path": "benchmarks/gain/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "benchmarks/GAIN/data_transformer.py",
+      "path": "benchmarks/gain/data_transformer.py",
+      "source_sha256": "bd0277e8acd44ab3823068791463162fcfbad9f0d919acd51cc56d3de7722681",
+      "sha256": "d5467216ad07feaee4ef2d3a7c04b0c4badb5f4be56fa20d5e7eb7e90a2a48ee"
+    },
+    {
+      "source": "benchmarks/GAIN/gain.py",
+      "path": "benchmarks/gain/gain.py",
+      "source_sha256": "e6fd99c8ded59608f8ff719d5898cc302d823e92e13b4b2b7e2edc43f218235e",
+      "sha256": "7382604608cb8b044a80f6e4bf16d10e00e150b4a29a888f0af422adfde7d4e0"
+    },
+    {
+      "source": "benchmarks/GAIN/metric.py",
+      "path": "benchmarks/gain/metric.py",
+      "source_sha256": "1262da84b032eb55b48d4bef65f9458c63d36cae43125a4facd616db99b8e0f4",
+      "sha256": "c343dcd178def1daaaaf8644b664bb8d871a071c8e28c5b0a4564b0e24d256d4"
+    },
+    {
+      "source": "benchmarks/GAIN/networks.py",
+      "path": "benchmarks/gain/networks.py",
+      "source_sha256": "dfca0b3c4ded84b2dbd2eb9023683091d4927a759355bc7e41dd2c3463c867e1",
+      "sha256": "5e4483128d7e63c63ad6b410c09cd004eaa21edee4b7204f0a2cd009824de706"
+    },
+    {
+      "source": "benchmarks/GAIN/tuner.py",
+      "path": "benchmarks/gain/tuner.py",
+      "source_sha256": "66b3bdc0588d375204f4e03250bd8e028c4c56ac00d88e189836c469f022ae1e",
+      "sha256": "254951e6a0e30717ab730ad51cf85f833d6a3db809d9cd4b6cb9e24d38f313c0"
+    },
+    {
+      "source": "benchmarks/TabCSDI/__init__.py",
+      "path": "benchmarks/tabcsdi/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "benchmarks/TabCSDI/data_transformer.py",
+      "path": "benchmarks/tabcsdi/data_transformer.py",
+      "source_sha256": "67890679c1c36895daed3141535b9bc9335b90ec7e0fba5b74ba176cddc02bfd",
+      "sha256": "e6c7e02b7847b1a93c17f33cd43e3c3a93c2f0ce5fbf022a81e9cf43b5f6ca07"
+    },
+    {
+      "source": "benchmarks/TabCSDI/diff_models_table.py",
+      "path": "benchmarks/tabcsdi/diff_models_table.py",
+      "source_sha256": "6af2f77b90ab3b4d1a1fa0e1b5d819b9b149ce6979ace63a3d0eec4b11beec7c",
+      "sha256": "bb5b35a333b6229ad272e770196c2a844d3e3b0e18222547530dce8a14aada94"
+    },
+    {
+      "source": "benchmarks/TabCSDI/metric.py",
+      "path": "benchmarks/tabcsdi/metric.py",
+      "source_sha256": "1262da84b032eb55b48d4bef65f9458c63d36cae43125a4facd616db99b8e0f4",
+      "sha256": "c343dcd178def1daaaaf8644b664bb8d871a071c8e28c5b0a4564b0e24d256d4"
+    },
+    {
+      "source": "benchmarks/TabCSDI/tabcsdi.py",
+      "path": "benchmarks/tabcsdi/tabcsdi.py",
+      "source_sha256": "3bfb65ee5f8fc471cc21f60ebc1bc5c16bf9e5755e8d37717baa8e0660dbefcb",
+      "sha256": "04d66815af6c1f4d3e3e29a6287ca707a44eae2a5baec7340ebad2e7c55f94c5"
+    },
+    {
+      "source": "benchmarks/TabCSDI/tuner.py",
+      "path": "benchmarks/tabcsdi/tuner.py",
+      "source_sha256": "67e58f1c8c78eb03d49f549ed9c686ed5be85db6de5aa1c8ecd874519d523606",
+      "sha256": "0bbb5c253a63b4f1800ecec69be632dde7e6ca39ae202f1123a92d31bf42c767"
+    },
+    {
+      "source": "benchmarks/__init__.py",
+      "path": "benchmarks/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "code_nutri/00_install_packages.R",
+      "path": "experiments/nutrition/00_install_packages.R",
+      "source_sha256": "e9b5c1fdb903cceb726106038a7f59d8c26659d5cca4ce6de771b110d278969f",
+      "sha256": "053e2c5b5bfbdf1c69efd7cfefae94076304facccd037ad54457e2b49e8b507b"
+    },
+    {
+      "source": "code_nutri/00_utils_functions.R",
+      "path": "experiments/nutrition/00_utils_functions.R",
+      "source_sha256": "8b0e779cb946362218b0468214a097cf09fe659e454b662850ff410c59a6839b",
+      "sha256": "e744266f8e7668c0696e57955419e60874c72f34af4190f0fbff853939d4252c"
+    },
+    {
+      "source": "code_nutri/01_generate_data.R",
+      "path": "experiments/nutrition/01_generate_data.R",
+      "source_sha256": "a7083856589bf807346bb43671ca07210ea79b67c6479422096b4e4b22e7ed62",
+      "sha256": "ca568f1e2f8ba41db4e5d1d4b06dc275000dcec8922e87e0e05aee005ea0c0af"
+    },
+    {
+      "source": "code_nutri/02_generate_sample.R",
+      "path": "experiments/nutrition/02_generate_sample.R",
+      "source_sha256": "0c521ab0d4a9fa75e60677fce604f3870222e32c4f28437dd5dd5eba79b11713",
+      "sha256": "a46ef738bb298ad009c49ae5ba7af50182c53bd3d0d0434fe8a61a58a8fdb5f6"
+    },
+    {
+      "source": "code_nutri/03_run_gain.sl",
+      "path": "experiments/nutrition/03_run_gain.sl",
+      "source_sha256": "5df37a01ba8559a62f68e58df6ab225d09bd0511a9294a1afcedb17d3f292804",
+      "sha256": "1374be79a771cb9346a0843cf3e217858faf7668db4621019ab852c69b85a915"
+    },
+    {
+      "source": "code_nutri/03_run_mice.sl",
+      "path": "experiments/nutrition/03_run_mice.sl",
+      "source_sha256": "4f93405fd81b88da8fa090558b26b627bd574914da8efb0736d04eed03876de0",
+      "sha256": "d55975fcaece4645f4607809056609afa47564ad542ba4fe603b023878ef3957"
+    },
+    {
+      "source": "code_nutri/03_run_mixgb.sl",
+      "path": "experiments/nutrition/03_run_mixgb.sl",
+      "source_sha256": "96bd9092f595c65da997d304c7c4597e4056f368732484abac719e1d3f5c5be3",
+      "sha256": "c7854bb2c8c5b9a21ee2a87f6c66f4af88ff119fcdfcb54ecfb41410b26051ee"
+    },
+    {
+      "source": "code_nutri/03_run_oracle.sl",
+      "path": "experiments/nutrition/03_run_oracle.sl",
+      "source_sha256": "56e8f6516cafd403d8e065444142127faa3597e4f43c742158426e7f557eb4c9",
+      "sha256": "bcf127808d3ceb7230f2d84025b589fa13290ef9c66b1495b9a7c1af739fc147"
+    },
+    {
+      "source": "code_nutri/03_run_raking.sl",
+      "path": "experiments/nutrition/03_run_raking.sl",
+      "source_sha256": "7cc59468f72fed7c6776b70ef9ea186a2a7f984b2acf23b7233008d75613ce8c",
+      "sha256": "e33ca5089ca440db7dc63a49615c01e99bf8c63ec71cfcbe4686c2203c39fa89"
+    },
+    {
+      "source": "code_nutri/03_run_rf.sl",
+      "path": "experiments/nutrition/03_run_rf.sl",
+      "source_sha256": "0e29f6d241c7d996c55180128027ca6d3a2a9980208f93ca1cc65e964ea4d337",
+      "sha256": "816d665864f337a5b5173b52741ce96e064dcbd9b5d75cfc4de6f502072011e4"
+    },
+    {
+      "source": "code_nutri/03_run_sicg.sl",
+      "path": "experiments/nutrition/03_run_sicg.sl",
+      "source_sha256": "b143c535a4c1fb517cb92f1d5084ecc596ad03c819f9b22d210482b4060faa44",
+      "sha256": "6623d2817268cedbb6762cab0f997535536caebe4cfaa50a0d9c53285995daa9"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_gain.py",
+      "path": "experiments/nutrition/03_run_simulation_gain.py",
+      "source_sha256": "f837bfcc48e8046488d173db5626c338eaa2d942a8cd84c95cbb111358437cf5",
+      "sha256": "d223f6fe86132a78b8bbb06d07f55e8d0b944385529c3dc964f002f5618e5b1b"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_mice.R",
+      "path": "experiments/nutrition/03_run_simulation_mice.R",
+      "source_sha256": "84a870f96d1e4f902ee7985a9c7547815ec29bd6ba52b9e0c62ee7384fc2e44d",
+      "sha256": "0ea495137967a31003e71e4037d792c2adff6b2863a87801f47c3b7373171842"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_mixgb.R",
+      "path": "experiments/nutrition/03_run_simulation_mixgb.R",
+      "source_sha256": "b81cf116e99de3b20292e9ee0ac3a40c514fd0a76b16780998a023983a8df226",
+      "sha256": "e564cd91de5acaa40502d9646a2a4de9884402f7ee5ba23e661dc9daa88811bc"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_oracle.R",
+      "path": "experiments/nutrition/03_run_simulation_oracle.R",
+      "source_sha256": "3653516e8d683cb5409d98b8d836056bee1729d7308aa2d16052dc2ae90dba18",
+      "sha256": "b02140b0e3cf57e99c64c30b14105181b240b1b0c55e731c1c3a6551ee404456"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_raking.R",
+      "path": "experiments/nutrition/03_run_simulation_raking.R",
+      "source_sha256": "893b716ffc5727fcc53b9d6ea9f5385bc76cda722ea82c8ef554f06fb5f3e775",
+      "sha256": "83c06ec4171c92d0963eaaa9811222742fd5bb1a54237f04e8ba918918bedb0d"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_rf.R",
+      "path": "experiments/nutrition/03_run_simulation_rf.R",
+      "source_sha256": "91153cc800fa687ff8b56174499d9b1ccdd5962603f55a3ec122d2bb506e1f19",
+      "sha256": "b528d99d3c4e710c96d6e4822421b43e39e5cab86b33cd24679b4dc2678420e2"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_sicg.py",
+      "path": "experiments/nutrition/03_run_simulation_sicg.py",
+      "source_sha256": "b774a096f86520dcfe5c17b05e528907138ab67282382356ad925d35ea63c1a4",
+      "sha256": "524031b1adc3e9a93dab3bd09e8411ea3f9fa357bf7f38d260c8155571d60bc1"
+    },
+    {
+      "source": "code_nutri/03_run_simulation_tabcsdi.py",
+      "path": "experiments/nutrition/03_run_simulation_tabcsdi.py",
+      "source_sha256": "6f6eef435f1880dae531a0078a8c3be012255fc85bd911d6dd8ecc0a9c886e79",
+      "sha256": "8453b84291f53c89537ae2ca92ec79dcd328ae17b65537363b419166d0eb2f20"
+    },
+    {
+      "source": "code_nutri/03_run_tabcsdi.sl",
+      "path": "experiments/nutrition/03_run_tabcsdi.sl",
+      "source_sha256": "b0e107ad07abe5e93547d625764e3ff389e77781e1b35d1ce83d3358ec24cd39",
+      "sha256": "9d4d6baea894a98b386f28f8067c2d464e8826dd0cf97af2762004f4aa174a3f"
+    },
+    {
+      "source": "code_nutri/04_retrieve_estimates.R",
+      "path": "experiments/nutrition/04_retrieve_estimates.R",
+      "source_sha256": "6f7d8cbca00fc3496dda5baa15fa38e652feb233659cbc8ce7f3ef00c6f25418",
+      "sha256": "b07ad74fbe1ce4519a54b7c90d12c5e7b55e4de027020d5e039fe594b5ed34f4"
+    },
+    {
+      "source": "code_nutri/05_generate_results.R",
+      "path": "experiments/nutrition/05_generate_results.R",
+      "source_sha256": "c39aef5e29156d012285884bccd6f8b9769fa20ab17ec35fc2e34a8c64dd38a7",
+      "sha256": "b6e4baf3bf1b69f892d3fdf653a3a4932c6a639ce7766a362a09746d1e4c7341"
+    },
+    {
+      "source": "code_nutri/06_generate_figures.R",
+      "path": "experiments/nutrition/06_generate_figures.R",
+      "source_sha256": "06112964167c2047053c078da5ec75d82a744d5c8b094e2ba1472a6e512d902b",
+      "sha256": "d7f2b5798930e14dc1fc5685d8c493e9de7ed61f0515b96ff6378cb3ed6a3c9c"
+    },
+    {
+      "source": "code_nutri/07_generate_tables.R",
+      "path": "experiments/nutrition/07_generate_tables.R",
+      "source_sha256": "ec42a54da2d08ebee5c31e999f259e09cf607b3d608c5db92ec98a3510a46bbe",
+      "sha256": "e2873d769693783e033b9449a0fa8a3da2679ed4ebf9668ac5a0cac1d8fef675"
+    },
+    {
+      "source": "code_nutri/08_generate_dispersion_figure.R",
+      "path": "experiments/nutrition/08_generate_dispersion_figure.R",
+      "source_sha256": "cba5c0f319ad34b9929a660b826c6cfb80fd0b4f981242acf42f740a501783ad",
+      "sha256": "9c77bab9c701b92538948df309ab96f4e1efb830e7a09d083b749c3a8251bb07"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/gain/analysis.R",
+      "path": "experiments/nutrition/comparisons_tuning/gain/analysis.R",
+      "source_sha256": "d2a61ca5f66511f0d664418899be15988c84e10f3179824670a88ff90c1a5bc9",
+      "sha256": "5036c3259bfdcf22877ae1014d9cc6fdb9245ff23a267eb38b7b6370ddb1f9b7"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/gain/base_config_gain.yaml",
+      "path": "experiments/nutrition/comparisons_tuning/gain/base_config_gain.yaml",
+      "source_sha256": "8a87514d33aae52160b312a3c161072d2beabdb6679d0f7603c3256c4ec14aea",
+      "sha256": "c809d30347ce6325f7db141ec67e1d3ae89d5b75b3072dc9ede69c33296fafce"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "path": "experiments/nutrition/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "source_sha256": "fcd2a189cfec68a8fa012662ce5e88966dc44c6d583e487254afc509f9f882c6",
+      "sha256": "4737b036da200656fc908179796f4a77f8f72b422886886be0993c55a9b87cf6"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/gain/tuning_gain.py",
+      "path": "experiments/nutrition/comparisons_tuning/gain/tuning_gain.py",
+      "source_sha256": "640328291571ffd2d421a97fd80a08a17f3514c1dcb7b673f8d10144583aa391",
+      "sha256": "7b8bad0343aa5117f8d5a82f2da3edc8c3cb0406f97c53e9f3cfa51527659bf2"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/mice/tuning_mice.R",
+      "path": "experiments/nutrition/comparisons_tuning/mice/tuning_mice.R",
+      "source_sha256": "d39b5b17faca5d8403c7cd868ab80b2542c62c0ad386a8dc79b625cd78ccf33a",
+      "sha256": "b3004b6646e0043484e8d07a579dbf66428b40f0b038f13e544f47257821886e"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/mice/tuning_mice_rf.R",
+      "path": "experiments/nutrition/comparisons_tuning/mice/tuning_mice_rf.R",
+      "source_sha256": "746308895ddf8a5ad23b08f78a3d5c8db55e5281b032c8211c72be9e324ba9f5",
+      "sha256": "12b6fc6308295229f55a03efb632cbcc2d6631d336ee433c22c5b070b60607ba"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "path": "experiments/nutrition/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "source_sha256": "5ce5b626778da2b6cb85a2fedd53d3c82f9d1a0e29451523a9616ccbea5d6c36",
+      "sha256": "400a9072a67d52b47eb7b4422e867d22c2e774433729cef56bc5cc72b54b6e8d"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/raking/raking.R",
+      "path": "experiments/nutrition/comparisons_tuning/raking/raking.R",
+      "source_sha256": "5d4fe2d7b9580d8d75a23a36b0b07eca20497c5af45386b9c298a00f94abcc7e",
+      "sha256": "0f5c05a4a366a41dda4512001f3248dc8663b0d28a7f49833e3a1ed140e53dff"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/tabcsdi/analysis.R",
+      "path": "experiments/nutrition/comparisons_tuning/tabcsdi/analysis.R",
+      "source_sha256": "3d5b3142f6f8dd884564f1fc0f993c0dbccb16d89bb5a36227d8a4606a991b48",
+      "sha256": "ac928c1cf1bb90baec513e366b49dafc7ee3113fc89dbb4afafb869740732755"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "path": "experiments/nutrition/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "source_sha256": "75afcf30ce09b724ba9e9d2b394edec329e2590fda0680722bf534889e1cce01",
+      "sha256": "476bfbedeabbdd7f2765d282fe895e20a63631f2da4989be2537f55c2203787d"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "path": "experiments/nutrition/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "source_sha256": "78fdf23322cbfcdc1fa5ccc4e2ccf67ff94d12b8ea6b2a3e550e3bd97583ea4a",
+      "sha256": "1a98d2c39c4afed314b78fbabd3d05122ca37f4a4df67dbc5a3024805021b4e6"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "path": "experiments/nutrition/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "source_sha256": "78fdf23322cbfcdc1fa5ccc4e2ccf67ff94d12b8ea6b2a3e550e3bd97583ea4a",
+      "sha256": "1a98d2c39c4afed314b78fbabd3d05122ca37f4a4df67dbc5a3024805021b4e6"
+    },
+    {
+      "source": "code_nutri/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "path": "experiments/nutrition/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "source_sha256": "2c1a88ddc64c30c9de86689e6c3403ffbf26646258a9017cfa8a898f16aa6ac4",
+      "sha256": "0d4472ee648588429d8d59a60cbfa874f9de9b2329f64dcde965b9c7436a442c"
+    },
+    {
+      "source": "code_nutri/data/Config/best_config_gain.yaml",
+      "path": "experiments/nutrition/data/Config/best_config_gain.yaml",
+      "source_sha256": "fcd2a189cfec68a8fa012662ce5e88966dc44c6d583e487254afc509f9f882c6",
+      "sha256": "4737b036da200656fc908179796f4a77f8f72b422886886be0993c55a9b87cf6"
+    },
+    {
+      "source": "code_nutri/data/Config/best_config_sicg.yaml",
+      "path": "experiments/nutrition/data/Config/best_config_sicg.yaml",
+      "source_sha256": "d7d1a113477253e7911262401079790d1a14f44721dc2a27012c5b22349f719d",
+      "sha256": "c858405b17ff9e3bbce8b70c1bada2c12564988e603f4b474c465ffbb0e45fae"
+    },
+    {
+      "source": "code_nutri/data/Config/best_config_tabcsdi.yaml",
+      "path": "experiments/nutrition/data/Config/best_config_tabcsdi.yaml",
+      "source_sha256": "9cf08e7685d0406cb1e03d3814b7f0d39b167fe83606a771772f176ec7384049",
+      "sha256": "01c7511d1cc0cc39898200939a03d2c29a2d537528602a0e2a7f8935999c269c"
+    },
+    {
+      "source": "code_nutri/data/params/data_generation_seed.RData",
+      "path": "experiments/nutrition/data/params/data_generation_seed.RData",
+      "source_sha256": "914d24adf257e3f094b15cd74ce19f2403b2d8e8426da78d4bc31669b2e48b62",
+      "sha256": "914d24adf257e3f094b15cd74ce19f2403b2d8e8426da78d4bc31669b2e48b62"
+    },
+    {
+      "source": "code_nutri/data/params/data_sampling_seed.RData",
+      "path": "experiments/nutrition/data/params/data_sampling_seed.RData",
+      "source_sha256": "a69ad818bc9aa65d4e82b2e7249f814eb5a06dcb2b82906bea09ed8ad83d72e5",
+      "sha256": "a69ad818bc9aa65d4e82b2e7249f814eb5a06dcb2b82906bea09ed8ad83d72e5"
+    },
+    {
+      "source": "code_nutri/simulations/results/Summary_Table.csv",
+      "path": "experiments/nutrition/simulations/results/Summary_Table.csv",
+      "source_sha256": "00680c45fbfe3b4f1c033b439a1b9a5d892a8c41dacfa3d6550d0301df4aa12d",
+      "sha256": "cc4e07782dfd254d7a45a9f5b534db59ab08b8f008ae863c26f3e314263c9ae1"
+    },
+    {
+      "source": "code_nutri/simulations/results/results_TIMES.csv",
+      "path": "experiments/nutrition/simulations/results/results_TIMES.csv",
+      "source_sha256": "ae916d61531d98bf1ea53eea3d97a60a34fc927f68d3c10da5e24be3123d948d",
+      "sha256": "ec96c5f7267d43d7a3cb1c82cccc23dd383f3e073e090119a4d67b655cdfc39a"
+    },
+    {
+      "source": "code_nutri/simulations/results/tables/tab_appc_nutri_Binomial.tex",
+      "path": "experiments/nutrition/simulations/results/tables/tab_appc_nutri_Binomial.tex",
+      "source_sha256": "fb8640713a52e59a2799d453cae2f19588123d89ea255df99fbb336c761b220e",
+      "sha256": "f7b6c2e60acb9eafeff4ce5e014df630efcd97336a7c78af6fd682cb4dbcdd20"
+    },
+    {
+      "source": "code_nutri/simulations/results/tables/tab_appc_nutri_Gaussian.tex",
+      "path": "experiments/nutrition/simulations/results/tables/tab_appc_nutri_Gaussian.tex",
+      "source_sha256": "3bb07a3d9f073f36ba3ebfba5852c89f157c608a0adfd395e611cb65db2d750e",
+      "sha256": "2dd7310ce7b564225455b094c351f4297eda790674b1c33177b3af096fe2f4b0"
+    },
+    {
+      "source": "code_nutri/simulations/results/tables/tab_sicg_rank_nutri.tex",
+      "path": "experiments/nutrition/simulations/results/tables/tab_sicg_rank_nutri.tex",
+      "source_sha256": "d0a2415ea9842998b2ecc268719b4e39a88e77dcf65fbf80608efc2ec3dfbcb2",
+      "sha256": "1bb86da119b278d6feedeebe41fc12fda2e830f0ede805512f1447171d673250"
+    },
+    {
+      "source": "code_surv/00_install_packages.R",
+      "path": "experiments/survival/00_install_packages.R",
+      "source_sha256": "e9b5c1fdb903cceb726106038a7f59d8c26659d5cca4ce6de771b110d278969f",
+      "sha256": "053e2c5b5bfbdf1c69efd7cfefae94076304facccd037ad54457e2b49e8b507b"
+    },
+    {
+      "source": "code_surv/00_utils_functions.R",
+      "path": "experiments/survival/00_utils_functions.R",
+      "source_sha256": "246550ba786910cdbf0ed36bf6a06962210ac9ea6b2fec6efbdf98d9e3f81707",
+      "sha256": "7bbd2b345b17afd56c07dd80f68e1987c3877632291f043c23d2fcb9feb49e65"
+    },
+    {
+      "source": "code_surv/01_generate_data.R",
+      "path": "experiments/survival/01_generate_data.R",
+      "source_sha256": "d5b97dce953c9519c197b7adb33cddcc42692ce9bb7a3addcb4b627420235ff0",
+      "sha256": "aa85c9360c9d835529c3e5caaa233619b97f691c2db5b7e8f628af941ccd76c3"
+    },
+    {
+      "source": "code_surv/02_generate_sample.R",
+      "path": "experiments/survival/02_generate_sample.R",
+      "source_sha256": "c0cc32f0145daa2741a43a14787d049949bcac04fe8dcc585945ba867833f50d",
+      "sha256": "e584aa67d34a9d68794fbf14eff2796fe2788712c96d79a797267600d65a4e1b"
+    },
+    {
+      "source": "code_surv/03_run_gain.sl",
+      "path": "experiments/survival/03_run_gain.sl",
+      "source_sha256": "17952d2e521de4e1a4cef48cfdc207819918d6ec2235701663be6b3999a901dd",
+      "sha256": "7797a428a5a0c76799a8dfebba9a0430ee273637dc7f8ead61cd5be7a21bae09"
+    },
+    {
+      "source": "code_surv/03_run_mice.sl",
+      "path": "experiments/survival/03_run_mice.sl",
+      "source_sha256": "374e6a308116e2360e9afcd7e5f11d84b57c95b19f49ba7913316a4241ec05be",
+      "sha256": "43fe55b23a909532cee814fb878611878c73dcbcd2af297ffda684c01888a1b3"
+    },
+    {
+      "source": "code_surv/03_run_mixgb.sl",
+      "path": "experiments/survival/03_run_mixgb.sl",
+      "source_sha256": "2bbaa61722a2e4433c0607a954e0c05037c74cbdf5dab5461ced269a5930f62c",
+      "sha256": "09187288434309f06799e44a90c24f88936ebe9cd3f21a36e9a36dd1c8b82110"
+    },
+    {
+      "source": "code_surv/03_run_raking.sl",
+      "path": "experiments/survival/03_run_raking.sl",
+      "source_sha256": "b17c2fadb61453dec630ea0dadae54f7e6b5c18fa4bd33657b31688e1decc568",
+      "sha256": "09a079e3b908859abe8ca2b48841e3fbf2522990246b7977730271a8924bd283"
+    },
+    {
+      "source": "code_surv/03_run_rf.sl",
+      "path": "experiments/survival/03_run_rf.sl",
+      "source_sha256": "52b6c1dd5524a0b89c3fcf7fca7776c39a665a23c64568ee81dd13831a9a621e",
+      "sha256": "1b38b6e302092bfe60e07b43f61d4d8096070a9f4fd0344e78c2d667854b995f"
+    },
+    {
+      "source": "code_surv/03_run_sicg.sl",
+      "path": "experiments/survival/03_run_sicg.sl",
+      "source_sha256": "e8cfb604b82fb0b98eba45fb8270edf0c681305bcb732b8ccd350347ad7110d1",
+      "sha256": "e0133135186e0b9350e774b3a5c4f7651550a5958f839c94a13ba6589fc37fd1"
+    },
+    {
+      "source": "code_surv/03_run_simulation_gain.py",
+      "path": "experiments/survival/03_run_simulation_gain.py",
+      "source_sha256": "e824089717590b729e8cb24754179666c9c7459972c6efa2c1f9d2dfed4c7645",
+      "sha256": "a34e8f770daa39380b94f1cedbe5465b89e24ba3b16a632e68d00117a38c1728"
+    },
+    {
+      "source": "code_surv/03_run_simulation_mice.R",
+      "path": "experiments/survival/03_run_simulation_mice.R",
+      "source_sha256": "f1bc717ac673e0ad31a2ac4998633e2c052133637417e10f14194b7c41632bdd",
+      "sha256": "fb9e9d278af84cbc7f5f78f1f33c7d1bd4307ca427ace4ab7647feba0a3ae23c"
+    },
+    {
+      "source": "code_surv/03_run_simulation_mixgb.R",
+      "path": "experiments/survival/03_run_simulation_mixgb.R",
+      "source_sha256": "a42828fef6c4aa55a6a607f2a2413d10ce020b13fe528fb7afae274945ba2cbb",
+      "sha256": "62da85e367557407daf83d6de50427ecbaf4b3098cac65abee13496cc53e56c4"
+    },
+    {
+      "source": "code_surv/03_run_simulation_raking.R",
+      "path": "experiments/survival/03_run_simulation_raking.R",
+      "source_sha256": "d0f18cb674849b3a78190685415ea5df2135cfce4051e3b44a7fbda5d7707803",
+      "sha256": "e473d757515a5a453f9fcb06b78ccdd3054c82867e6b563f09f07ae3cccaf71d"
+    },
+    {
+      "source": "code_surv/03_run_simulation_rf.R",
+      "path": "experiments/survival/03_run_simulation_rf.R",
+      "source_sha256": "d8327de04984667807bf992c502bddf8a39d8789ed18330f2be10c28cf81c142",
+      "sha256": "3f77ece1895ffa1e6e2af15de07eb6088e8ba2abc10cc704aded16be1f6c6ddf"
+    },
+    {
+      "source": "code_surv/03_run_simulation_sicg.py",
+      "path": "experiments/survival/03_run_simulation_sicg.py",
+      "source_sha256": "13971b97cb48687f1af65390a308ac1ad7184d8ea913b0cb6f8cd87840dab9b4",
+      "sha256": "4a225b1ae176b60f27644404be910edc752bb609e60080523e391904294a8504"
+    },
+    {
+      "source": "code_surv/03_run_simulation_tabcsdi.py",
+      "path": "experiments/survival/03_run_simulation_tabcsdi.py",
+      "source_sha256": "647560d0461bc2555cead91d8dbd53487adff388a63ea11350174302aa833d99",
+      "sha256": "5982269a81139e7cecef3338088649e21594b844fea3c63d0710e71e683b2565"
+    },
+    {
+      "source": "code_surv/03_run_tabcsdi.sl",
+      "path": "experiments/survival/03_run_tabcsdi.sl",
+      "source_sha256": "ae020a4ef7baf26a87a6d6a4d57803dc3de4ef4cb136fc7d006f919ee906b7db",
+      "sha256": "45c0557c23c8415e6fec638bfa3d5acfa21ba22e3f5854ff97d37f19475f31f4"
+    },
+    {
+      "source": "code_surv/04_retrieve_estimates.R",
+      "path": "experiments/survival/04_retrieve_estimates.R",
+      "source_sha256": "0fe569082961a9742872a1a39f2a76a9cfb73239e7f4c795576648d5cb41f86b",
+      "sha256": "93e88850fa96e5276681472659fdd72655b3d0b409b98ca6ca14cb9283b27ecf"
+    },
+    {
+      "source": "code_surv/05_generate_results.R",
+      "path": "experiments/survival/05_generate_results.R",
+      "source_sha256": "18ff993dfab6c178d7a68a43634d55915ac4ccb2ac3d74a770a966805cdbb97e",
+      "sha256": "8efeb7cde3fc36ee4e86ff04c1fe8ce0cbb5cb9bd4e723cd28b2451de8e58fad"
+    },
+    {
+      "source": "code_surv/06_generate_figures.R",
+      "path": "experiments/survival/06_generate_figures.R",
+      "source_sha256": "6be400f3cb29adfdbf9a94234d7e433d0f9d5742a176767a75ad98dc97dc3638",
+      "sha256": "a7e3eba9db7e40f331702275ece1d25fe63df34d75da825978db97309daac39d"
+    },
+    {
+      "source": "code_surv/07_generate_tables.R",
+      "path": "experiments/survival/07_generate_tables.R",
+      "source_sha256": "ca591143fc79e4aa1e639b7dbfec9864136728721b8a42d78f6f465a46bca7bc",
+      "sha256": "b985239d09649db85b3ae5d74589ba8e6c12eefe733bfb4ea82ae1072d4a8ef6"
+    },
+    {
+      "source": "code_surv/08_generate_TI_density_figure.R",
+      "path": "experiments/survival/08_generate_TI_density_figure.R",
+      "source_sha256": "1680ea9e8a4e32d1e36b0171398a8f5e5f5f7d70e8c7d2433f9a897834d597e2",
+      "sha256": "dca4d1e7991817151c97ea7360d56f9eed434216653f6ead1e427de2a899dd20"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/gain/analysis.R",
+      "path": "experiments/survival/comparisons_tuning/gain/analysis.R",
+      "source_sha256": "a9e44387ea2f78b60b58953c0a11eb2859d23cdc8c49d03f2bf092aebc932841",
+      "sha256": "08225f5467ee84e2906535eb05eb41dd1b938ac27323d576bfd267b228fb30bc"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/gain/base_config_gain.yaml",
+      "path": "experiments/survival/comparisons_tuning/gain/base_config_gain.yaml",
+      "source_sha256": "8a87514d33aae52160b312a3c161072d2beabdb6679d0f7603c3256c4ec14aea",
+      "sha256": "c809d30347ce6325f7db141ec67e1d3ae89d5b75b3072dc9ede69c33296fafce"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "path": "experiments/survival/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "source_sha256": "10461efff3999585bc4c2c26a9be4a3c1c183ebaf7ce24fbe5f9bc75c8fb8f70",
+      "sha256": "ba031b19aa078eca00a0b4e8c5974cfbfcfaf4134938cd98f39941c0ed99a429"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/gain/tuning_gain.py",
+      "path": "experiments/survival/comparisons_tuning/gain/tuning_gain.py",
+      "source_sha256": "bfd27a4ce2bf305de5d961082ab18978eea67a515cd3828c2db35f33d59d54ae",
+      "sha256": "3d6fc12d3d035393be98e2727938beff9083b512a58cadc5eb0bb2db579028fe"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/mice/tuning_mice.R",
+      "path": "experiments/survival/comparisons_tuning/mice/tuning_mice.R",
+      "source_sha256": "091fe31f8061304ab151fa6f7fd9b5c7269ffa13cf7363fa2b71c958fb5f78a1",
+      "sha256": "b2fcbf13b480df640ac340c776612c7d5768435f1576e50fd9a797fe13e2c029"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/mice/tuning_mice_rf.R",
+      "path": "experiments/survival/comparisons_tuning/mice/tuning_mice_rf.R",
+      "source_sha256": "07143bdcde6454f3b49407f56387a573d7e22b639f1a6c8cd5e96646d874a376",
+      "sha256": "7ef6e5c49624e0b588927c2cb0bf97d86f2ce2bc527a4dd298b8b3dbbc11694e"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "path": "experiments/survival/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "source_sha256": "bda28080e40282e0c4a6a679953b173febfb47f192d47a6a0b9c0022a4018797",
+      "sha256": "bf11ed555b464e71a6e0acd3eb4d22d5718a5ec37e96f5fb660696b05f513c6e"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/raking/raking.R",
+      "path": "experiments/survival/comparisons_tuning/raking/raking.R",
+      "source_sha256": "97e53244912a2c4b5e961e567a6cf2057dd427e366503dc5b4c5f7ac576c382c",
+      "sha256": "595e5e4cfcd233bfa3b59bb70ea59e8cde462cde837b4bea6c2424dbe4788ced"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/tabcsdi/analysis.R",
+      "path": "experiments/survival/comparisons_tuning/tabcsdi/analysis.R",
+      "source_sha256": "3d5b3142f6f8dd884564f1fc0f993c0dbccb16d89bb5a36227d8a4606a991b48",
+      "sha256": "ac928c1cf1bb90baec513e366b49dafc7ee3113fc89dbb4afafb869740732755"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "path": "experiments/survival/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "source_sha256": "75afcf30ce09b724ba9e9d2b394edec329e2590fda0680722bf534889e1cce01",
+      "sha256": "476bfbedeabbdd7f2765d282fe895e20a63631f2da4989be2537f55c2203787d"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "path": "experiments/survival/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "source_sha256": "3961df5f9eb2326b7cb1d0d8003dddb92057a39a73baadc5bf54b9a36414d63d",
+      "sha256": "18428f3361fa41e260c5576c9f2ac635f79abc9d5c2395216e943d236bbdf3d7"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "path": "experiments/survival/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "source_sha256": "3961df5f9eb2326b7cb1d0d8003dddb92057a39a73baadc5bf54b9a36414d63d",
+      "sha256": "18428f3361fa41e260c5576c9f2ac635f79abc9d5c2395216e943d236bbdf3d7"
+    },
+    {
+      "source": "code_surv/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "path": "experiments/survival/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "source_sha256": "4786110c6097678dfc729ff9ea487f62a4b78819c88458ff3d8554128a75eae2",
+      "sha256": "a644afdf556ccd0237ecb361f8131732bc9ba4ed91b0371f9cce695452fc7694"
+    },
+    {
+      "source": "code_surv/data/Config/best_config_gain.yaml",
+      "path": "experiments/survival/data/Config/best_config_gain.yaml",
+      "source_sha256": "fd060505da659cc6864d6b814bec61258e1880c6562bd3ec2b3e5b86f2a22383",
+      "sha256": "b3ea1d5173191bcc4bea6c0b12586651adb85b091d0422db6326248c276e0acf"
+    },
+    {
+      "source": "code_surv/data/Config/best_config_sicg.yaml",
+      "path": "experiments/survival/data/Config/best_config_sicg.yaml",
+      "source_sha256": "d7d1a113477253e7911262401079790d1a14f44721dc2a27012c5b22349f719d",
+      "sha256": "c858405b17ff9e3bbce8b70c1bada2c12564988e603f4b474c465ffbb0e45fae"
+    },
+    {
+      "source": "code_surv/data/Config/best_config_tabcsdi.yaml",
+      "path": "experiments/survival/data/Config/best_config_tabcsdi.yaml",
+      "source_sha256": "92357b6013fee5d0d42da78fc5181311aefa85add105e235871ddec947d0721e",
+      "sha256": "f8629dbc45082d77c0555d817eb7e29c39cfa2c241670392bb8d15ded1a36627"
+    },
+    {
+      "source": "code_surv/data/params/covarInfo.RData",
+      "path": "experiments/survival/data/params/covarInfo.RData",
+      "source_sha256": "49dc2b349f9667c6c87dd15d1294b67535f2b5a9323e0659cb7e9c9989ee2a1d",
+      "sha256": "49dc2b349f9667c6c87dd15d1294b67535f2b5a9323e0659cb7e9c9989ee2a1d"
+    },
+    {
+      "source": "code_surv/data/params/data_generation_seed.RData",
+      "path": "experiments/survival/data/params/data_generation_seed.RData",
+      "source_sha256": "9851eceb0aba8fe9f38ae7dc085d7326d3d7fb5fdb2bee981f93ae39055ed700",
+      "sha256": "9851eceb0aba8fe9f38ae7dc085d7326d3d7fb5fdb2bee981f93ae39055ed700"
+    },
+    {
+      "source": "code_surv/data/params/data_sampling_seed.RData",
+      "path": "experiments/survival/data/params/data_sampling_seed.RData",
+      "source_sha256": "2621e1b73ecb1f2d4962e4cbb91918ffcaef2f489d619627a6a4ac54d8b8672a",
+      "sha256": "2621e1b73ecb1f2d4962e4cbb91918ffcaef2f489d619627a6a4ac54d8b8672a"
+    },
+    {
+      "source": "code_surv/data/params/genoCorr.RData",
+      "path": "experiments/survival/data/params/genoCorr.RData",
+      "source_sha256": "d5b60f363d0c7c8a60fb7b075e036694b29527a7c7306e5a9e76f4f9a414f160",
+      "sha256": "d5b60f363d0c7c8a60fb7b075e036694b29527a7c7306e5a9e76f4f9a414f160"
+    },
+    {
+      "source": "code_surv/data/params/genoFreq.RData",
+      "path": "experiments/survival/data/params/genoFreq.RData",
+      "source_sha256": "1c3484df7b02271496173b8668dd0a7ecda1576c6a9b8e004126c27be2da767d",
+      "sha256": "1c3484df7b02271496173b8668dd0a7ecda1576c6a9b8e004126c27be2da767d"
+    },
+    {
+      "source": "code_surv/data/params/genoTrait.RData",
+      "path": "experiments/survival/data/params/genoTrait.RData",
+      "source_sha256": "5a9a956af888a5f07c9f39d61db88676af159b424cd27e131b094883fa76f626",
+      "sha256": "5a9a956af888a5f07c9f39d61db88676af159b424cd27e131b094883fa76f626"
+    },
+    {
+      "source": "code_surv/data/params/labtest_parameters.RData",
+      "path": "experiments/survival/data/params/labtest_parameters.RData",
+      "source_sha256": "48d8f0d84a2ddd1024162e662c710ddc2255a8d416d7a9ab460f19963f6789a1",
+      "sha256": "48d8f0d84a2ddd1024162e662c710ddc2255a8d416d7a9ab460f19963f6789a1"
+    },
+    {
+      "source": "code_surv/simulations/results/results_TIMES.csv",
+      "path": "experiments/survival/simulations/results/results_TIMES.csv",
+      "source_sha256": "5ae25d38c1227c886e95623054680bcab96dbc6b9bc1bb45c088547f7a7bcbd5",
+      "sha256": "367499db53888dbad53c773a7592eabc2974f5b1a8074f264ed49d053b16b0a4"
+    },
+    {
+      "source": "code_surv/simulations/results/tables/tab_appc_surv_SampleE.tex",
+      "path": "experiments/survival/simulations/results/tables/tab_appc_surv_SampleE.tex",
+      "source_sha256": "c132dd3c6afe4486342bd5b1d253fe3f20433133129990fde5828d8f5613cdaa",
+      "sha256": "228dc4cd1f92f82a0f0e813bc842fa052aa5a301393a175d33f7e25c41780346"
+    },
+    {
+      "source": "code_surv/simulations/results/tables/tab_appc_surv_SampleOE.tex",
+      "path": "experiments/survival/simulations/results/tables/tab_appc_surv_SampleOE.tex",
+      "source_sha256": "a5390eb4baccdf7b836660dc8dcc9e588f4f68c95450d3daa41b734d66c8d3e8",
+      "sha256": "d9f7cc59808d9cb584bc8a2ff392f5e19945aea50da2be130b2dc6510bf30a22"
+    },
+    {
+      "source": "code_surv/simulations/results/tables/tab_sicg_rank_surv.tex",
+      "path": "experiments/survival/simulations/results/tables/tab_sicg_rank_surv.tex",
+      "source_sha256": "e1ee8c0f808ad04cd12e3c4ee5cfe490deb40ab7adf141d4769c1b91a2d74625",
+      "sha256": "2aa645f1ea29a69882595c973d099de169a56d570c82b408f2ad1c7f746c37c0"
+    },
+    {
+      "source": "code_vccc/00_install_packages.R",
+      "path": "experiments/vccc/00_install_packages.R",
+      "source_sha256": "e9b5c1fdb903cceb726106038a7f59d8c26659d5cca4ce6de771b110d278969f",
+      "sha256": "053e2c5b5bfbdf1c69efd7cfefae94076304facccd037ad54457e2b49e8b507b"
+    },
+    {
+      "source": "code_vccc/00_utils_functions.R",
+      "path": "experiments/vccc/00_utils_functions.R",
+      "source_sha256": "9dee3eda2360f4252eff9628a0fe1bddbc7ecc270c50a73faa58d030b1d20188",
+      "sha256": "6ece0873f676a21bf66aa5a24c0f3930ddf87c1f0fc602577e16fe492e40b7a2"
+    },
+    {
+      "source": "code_vccc/01_prepare_dataset.R",
+      "path": "experiments/vccc/01_prepare_dataset.R",
+      "source_sha256": "c4f22cb804b2c77d3ff6f2a7ddd9ffe665a42c30b9443f8c390e9545c62b8f2c",
+      "sha256": "4fba2cdefc5b5d65c4b0643647a505e75cbf685661091f680af69b75c8b59a5b"
+    },
+    {
+      "source": "code_vccc/02_generate_sample.R",
+      "path": "experiments/vccc/02_generate_sample.R",
+      "source_sha256": "651992620db52e84f307e9bed6d42f4b7ee14cb8d3a18be6223b81db72a759f4",
+      "sha256": "063c8cfdfc91e0b4a570e14329e1c5305af088766d4d46524aabb77e02eea7ff"
+    },
+    {
+      "source": "code_vccc/03_run_gain.sl",
+      "path": "experiments/vccc/03_run_gain.sl",
+      "source_sha256": "5df37a01ba8559a62f68e58df6ab225d09bd0511a9294a1afcedb17d3f292804",
+      "sha256": "1374be79a771cb9346a0843cf3e217858faf7668db4621019ab852c69b85a915"
+    },
+    {
+      "source": "code_vccc/03_run_mice.sl",
+      "path": "experiments/vccc/03_run_mice.sl",
+      "source_sha256": "4f93405fd81b88da8fa090558b26b627bd574914da8efb0736d04eed03876de0",
+      "sha256": "d55975fcaece4645f4607809056609afa47564ad542ba4fe603b023878ef3957"
+    },
+    {
+      "source": "code_vccc/03_run_mixgb.sl",
+      "path": "experiments/vccc/03_run_mixgb.sl",
+      "source_sha256": "96bd9092f595c65da997d304c7c4597e4056f368732484abac719e1d3f5c5be3",
+      "sha256": "c7854bb2c8c5b9a21ee2a87f6c66f4af88ff119fcdfcb54ecfb41410b26051ee"
+    },
+    {
+      "source": "code_vccc/03_run_raking.sl",
+      "path": "experiments/vccc/03_run_raking.sl",
+      "source_sha256": "7cc59468f72fed7c6776b70ef9ea186a2a7f984b2acf23b7233008d75613ce8c",
+      "sha256": "e33ca5089ca440db7dc63a49615c01e99bf8c63ec71cfcbe4686c2203c39fa89"
+    },
+    {
+      "source": "code_vccc/03_run_rf.sl",
+      "path": "experiments/vccc/03_run_rf.sl",
+      "source_sha256": "0e29f6d241c7d996c55180128027ca6d3a2a9980208f93ca1cc65e964ea4d337",
+      "sha256": "816d665864f337a5b5173b52741ce96e064dcbd9b5d75cfc4de6f502072011e4"
+    },
+    {
+      "source": "code_vccc/03_run_sicg.sl",
+      "path": "experiments/vccc/03_run_sicg.sl",
+      "source_sha256": "0f2782e9def407bc8ab34f13c1163688f2838346681807374f1efd6c20d23ec3",
+      "sha256": "db606ca7e0b61a5f6aa0c9f0c9f6af9d55eb91317ab6eb11333c78c82fc9e293"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_gain.py",
+      "path": "experiments/vccc/03_run_simulation_gain.py",
+      "source_sha256": "d1bebcf8e10479b61ba0021503a2b88495da163b9534bfa95ae4d43b8dafc724",
+      "sha256": "17d04ab18f3a21eec521ca924c4b080809c76d70c81791fb18cb2a8bcd8b54cf"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_mice.R",
+      "path": "experiments/vccc/03_run_simulation_mice.R",
+      "source_sha256": "b6eaf8a23524dde4ff20525816e2bbcf5c985f3a1cad51e27abf541df6c2ce94",
+      "sha256": "b4238a24a82619bc48acf401359a561150d230bd98da197a6e49400c5eb0561f"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_mixgb.R",
+      "path": "experiments/vccc/03_run_simulation_mixgb.R",
+      "source_sha256": "2f3c795bc60cac12db98aff76754c4a17da53edfce79d057218b0c1eac89ab90",
+      "sha256": "bcbdcc7294588a498dab084ae5134c01a19bb1b58c1ab0c468705943297c1924"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_raking.R",
+      "path": "experiments/vccc/03_run_simulation_raking.R",
+      "source_sha256": "c7cce016e4bf1c393ed784650313192d8a6d645f89b63a8720092870ddf402fa",
+      "sha256": "33c3d6b7c8d4fbe9571c2bd3f752169d49913818a24f93eff7f5e65c0f582e08"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_rf.R",
+      "path": "experiments/vccc/03_run_simulation_rf.R",
+      "source_sha256": "f93a3ba1f486be072fa0e7c8992e5003b80a613d3c1b162ac9646946b44e5b87",
+      "sha256": "10b33945ba8353c802170bc0ac9597d3c6770759ede95d69f13d146010f0e8c3"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_sicg.py",
+      "path": "experiments/vccc/03_run_simulation_sicg.py",
+      "source_sha256": "bd568817ffd48c80d8d1b6fae61178fde2d8c38697bb3c1d8555a27ffb787f4c",
+      "sha256": "01165acc55291fe25b58f33a10792282e8f2b81320e7297546faa2f6003d9680"
+    },
+    {
+      "source": "code_vccc/03_run_simulation_tabcsdi.py",
+      "path": "experiments/vccc/03_run_simulation_tabcsdi.py",
+      "source_sha256": "aa327c45c2b4e89c10b1d209c9d38a2e36b74f9e98435e456421fd8b35d89dec",
+      "sha256": "56c559f27cb39cc963a1176cf989ac108bd19373e86657edf073d0b8e98d3962"
+    },
+    {
+      "source": "code_vccc/03_run_tabcsdi.sl",
+      "path": "experiments/vccc/03_run_tabcsdi.sl",
+      "source_sha256": "3f0c541684f9e766bc87682710a7ffff9be2f6ff9994f0ea2bad4a236f18b4e1",
+      "sha256": "357c91f0c23c8ed30a9021e4e8be5dc25d6adc269a94b0f20e53717a16d9528f"
+    },
+    {
+      "source": "code_vccc/04_retrieve_estimates.R",
+      "path": "experiments/vccc/04_retrieve_estimates.R",
+      "source_sha256": "11516a69e79390179a484f8794e2bd45e7472f8383ed968f2d9e37d6ddf3ac6e",
+      "sha256": "81ed861ce2ddea742e22c0a82fd6356958122214c2df6702fe4c1741bd845c62"
+    },
+    {
+      "source": "code_vccc/05_generate_results.R",
+      "path": "experiments/vccc/05_generate_results.R",
+      "source_sha256": "28e6a12ac65d6b853b99780ca9e6449cfea7f6683360b4d51b444d2ef7ef8b7b",
+      "sha256": "db4068ecae921eeed4607f145b7b3aac05b94a5bbe0e987cc87e482cfd8fe405"
+    },
+    {
+      "source": "code_vccc/06_generate_figures.R",
+      "path": "experiments/vccc/06_generate_figures.R",
+      "source_sha256": "44ad14d352586da8fa3f5dc66b07f555c070ab87e5519e3a7a3cfac3b4dfd71b",
+      "sha256": "c58be7119aac66ec317b70f03705ccd6605be3d7cecec10d999cadcff554a702"
+    },
+    {
+      "source": "code_vccc/07_generate_tables.R",
+      "path": "experiments/vccc/07_generate_tables.R",
+      "source_sha256": "3c56e50c919d152fc92661f8a890acfd2ddc7a8d9e46ab9fe9fd0da8f3b31827",
+      "sha256": "b67296f62b1c700f632a7f38dfbd1293fa9e0faeafee9a45ae064402956e881c"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/gain/analysis.R",
+      "path": "experiments/vccc/comparisons_tuning/gain/analysis.R",
+      "source_sha256": "d7d7129755d75c64d0311eb622468cf9987d3d16d4600906cc88e2d123081d60",
+      "sha256": "db88676c6815f7615612bb5578ed1f795e26da7c785202f5bd54dca866bd8153"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/gain/base_config_gain.yaml",
+      "path": "experiments/vccc/comparisons_tuning/gain/base_config_gain.yaml",
+      "source_sha256": "8a87514d33aae52160b312a3c161072d2beabdb6679d0f7603c3256c4ec14aea",
+      "sha256": "c809d30347ce6325f7db141ec67e1d3ae89d5b75b3072dc9ede69c33296fafce"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "path": "experiments/vccc/comparisons_tuning/gain/base_config_gain_epoch.yaml",
+      "source_sha256": "568e9798093222e1c805499d4d152520f31ee66450e7de4069a0965ddd150799",
+      "sha256": "39d4c7ead2e0f10e134b8a60574088890e51fc92a01113651cc63e1ef160f8b5"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/gain/tuning_gain.py",
+      "path": "experiments/vccc/comparisons_tuning/gain/tuning_gain.py",
+      "source_sha256": "8e6b2e0ccc06323d68e2eaa840e6660baab5d401b3d11c0b29b7931099493e42",
+      "sha256": "15b83e507aece2ab100885db7b8508e6181258104e144ebf1b582e5bfb60ae64"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/mice/tuning_mice.R",
+      "path": "experiments/vccc/comparisons_tuning/mice/tuning_mice.R",
+      "source_sha256": "8ca1f3c534bde354694c031e6ded472307a56a25cc7a31027f5156a0c2991d72",
+      "sha256": "0dcb9b31edfc9e4655517b5622af55e5e49d33a17931f84d267fdc32d58382b5"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/mice/tuning_mice_rf.R",
+      "path": "experiments/vccc/comparisons_tuning/mice/tuning_mice_rf.R",
+      "source_sha256": "6d5a4c4d3042d0d8adf565e71c06d79ba1f8f2c2de464cdb1cc81f96252d8c22",
+      "sha256": "a7a33a471d3c382de53d9814e16211923861916801b1312f358c4fb74c6c9849"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "path": "experiments/vccc/comparisons_tuning/mixgb/tuning_mixgb.R",
+      "source_sha256": "ef3d6d362a7db77780fded0dfc5df4d3705e26c5267d72197be15c869aaa7599",
+      "sha256": "61a7b62e4ca8d9d571b9ba1237aae4112ada851a2e01395a249ee8986afd510b"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/raking/raking.R",
+      "path": "experiments/vccc/comparisons_tuning/raking/raking.R",
+      "source_sha256": "175bf3f40c1b380fe1ae275e35c96b2ec61a4a6d879d12387425438c1bc5aff9",
+      "sha256": "0c9f9ce045b1b3ea49300191df7398733b2fea065bf0260adb90368532c5e33d"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/tabcsdi/analysis.R",
+      "path": "experiments/vccc/comparisons_tuning/tabcsdi/analysis.R",
+      "source_sha256": "0cec644b179440c68e0cc5035daa709eb611f0f1ccc9e3d3b6ddc008d6c60aa9",
+      "sha256": "aacfa8fc768ffd287aaefee6d0e9894467fcdb9076b37d3a10404572c9f1538b"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "path": "experiments/vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi.yaml",
+      "source_sha256": "6010cfc427afab83154eb5cce909b98f8efc74d3a8491bd34018a97f8824bbc4",
+      "sha256": "e1b42fe025d3dd6f77c097f88b7046e1d8409e4187160048a4667a51df993306"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "path": "experiments/vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi_epoch.yaml",
+      "source_sha256": "2a0700652962458d867904f5f991c0963e09707c36089bd493fda6915ba42d63",
+      "sha256": "6c4a08eed37b07986a25ce19ca7ebd719102d64dd71224b806e224ea8daa8384"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "path": "experiments/vccc/comparisons_tuning/tabcsdi/base_config_tabcsdi_epochs.yaml",
+      "source_sha256": "2a0700652962458d867904f5f991c0963e09707c36089bd493fda6915ba42d63",
+      "sha256": "6c4a08eed37b07986a25ce19ca7ebd719102d64dd71224b806e224ea8daa8384"
+    },
+    {
+      "source": "code_vccc/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "path": "experiments/vccc/comparisons_tuning/tabcsdi/tuning_tabcsdi.py",
+      "source_sha256": "56a3770cd0591a10d0203f9f67356f5ab3ad61ca02b46731c8d8cbe0feae8a56",
+      "sha256": "60c5850e0c73d8690864f626d22b2933903525b3506e91ee7637b5926c5d657f"
+    },
+    {
+      "source": "code_vccc/data/Config/best_config_gain.yaml",
+      "path": "experiments/vccc/data/Config/best_config_gain.yaml",
+      "source_sha256": "1bbcab7f1b7fde961ef8f6f3ad7bcc0233a718bcd9b5325a80d141576c28134f",
+      "sha256": "518619effa02c6d10dcdaf6528a63b516ba4a93faa01827ebd473e98ea10d069"
+    },
+    {
+      "source": "code_vccc/data/Config/best_config_sicg.yaml",
+      "path": "experiments/vccc/data/Config/best_config_sicg.yaml",
+      "source_sha256": "d7d1a113477253e7911262401079790d1a14f44721dc2a27012c5b22349f719d",
+      "sha256": "c858405b17ff9e3bbce8b70c1bada2c12564988e603f4b474c465ffbb0e45fae"
+    },
+    {
+      "source": "code_vccc/data/Config/best_config_tabcsdi.yaml",
+      "path": "experiments/vccc/data/Config/best_config_tabcsdi.yaml",
+      "source_sha256": "5905c7cd535f491a8d55d4537b5bfb40b29e57b7ab731921a35dea280ae6d7a9",
+      "sha256": "846b3d35df35121401b6c6698f5d88823f5a16f5bd1d04718231d8dc840ba422"
+    },
+    {
+      "source": "code_vccc/data/params/data_sampling_seed.RData",
+      "path": "experiments/vccc/data/params/data_sampling_seed.RData",
+      "source_sha256": "f09bc49c68e95a391ffc198a9c7a26315d875c4e740a1deb61f2be17c72b99b4",
+      "sha256": "f09bc49c68e95a391ffc198a9c7a26315d875c4e740a1deb61f2be17c72b99b4"
+    },
+    {
+      "source": "code_vccc/simulations/results/Summary_Table.csv",
+      "path": "experiments/vccc/simulations/results/Summary_Table.csv",
+      "source_sha256": "497deaf0ec485c7225f5e82a7b368ea149e6b49e5e94fd66437aa5a8e46bef8d",
+      "sha256": "781b2565ddae547e28e966ca5a2f55b2c488d81c40ef3bcba72cbf3a7be54f14"
+    },
+    {
+      "source": "code_vccc/simulations/results/results_TIMES.csv",
+      "path": "experiments/vccc/simulations/results/results_TIMES.csv",
+      "source_sha256": "9a377d9385d2d351d80b70c3a3afc4da8813e643fab0b1fc6ed1bc8ba4bd6176",
+      "sha256": "92cf48557c5c94e349b8a36e7f55946581ece70edf3818d7f50e6ca6cc740d3f"
+    },
+    {
+      "source": "code_vccc/simulations/results/tables/tab_appc_vccc_COX.tex",
+      "path": "experiments/vccc/simulations/results/tables/tab_appc_vccc_COX.tex",
+      "source_sha256": "f13d2c88bf29995a97dc5c1e51b874019625ba5f5ef122f72d3e47987e54e20b",
+      "sha256": "8f2f020cad8f771428efa91ff9b80a3885fb20a19d52a54b45230ef237488a8b"
+    },
+    {
+      "source": "code_vccc/simulations/results/tables/tab_appc_vccc_LM.tex",
+      "path": "experiments/vccc/simulations/results/tables/tab_appc_vccc_LM.tex",
+      "source_sha256": "c4a8399e9c3b14c549027006b2cbe3d4de24933cf3ea2c911be88a0f4b3b1e2d",
+      "sha256": "43a63f3458ed112f0f8a97e0f769cad41d257efdb78c2a12f1dccf80a705ad59"
+    },
+    {
+      "source": "code_vccc/simulations/results/tables/tab_appc_vccc_LOGISTIC.tex",
+      "path": "experiments/vccc/simulations/results/tables/tab_appc_vccc_LOGISTIC.tex",
+      "source_sha256": "ca3aa8917c54f61e659413eeafac1581766296c2129467b0d8df175777732fc9",
+      "sha256": "ef73e50ac726839496a17ff4a49d8a6c7513df49aa0bb494f94737fd32ce3dcb"
+    },
+    {
+      "source": "code_vccc/simulations/results/tables/tab_sicg_rank_vccc.tex",
+      "path": "experiments/vccc/simulations/results/tables/tab_sicg_rank_vccc.tex",
+      "source_sha256": "1a6241c050d88ba33373e0666d9cb0d254d836cabbef4988e66918abb4789cd0",
+      "sha256": "5bc454ab1e779fea07942813df38769029ef894611110c99e73b52491e51af0a"
+    },
+    {
+      "source": "requirements.txt",
+      "path": "requirements.txt",
+      "source_sha256": "1433023c19654d383a48d113043c72acea6c828c9abeba583707b196165e2f5f",
+      "sha256": "e0944ff07b0f6f9a5340b267837de01edf34a5a700c07004fd8b414f15ad7ced"
+    },
+    {
+      "source": "utils/ablation_analysis.R",
+      "path": "R/ablation_analysis.R",
+      "source_sha256": "07fef1a59b6470d29b23a17e7dd146fbb9de431d62ed261edc7570ba8e7c6c17",
+      "sha256": "b03496153286e393a59008134a5f8b4f6e238af6313565075137cd1433f12920"
+    },
+    {
+      "source": "utils/core_functions.R",
+      "path": "R/core_functions.R",
+      "source_sha256": "caa6367e4d8f41529a97eba2adc32d404de1b6eda15edc0ef277f25232a994ed",
+      "sha256": "fd262151028db7dd22eb2b031c88bbe19fb6542a84d25726f0508e666445834c"
+    },
+    {
+      "source": "utils/loss_calculator.R",
+      "path": "R/loss_calculator.R",
+      "source_sha256": "9962d96dd05d360b93e4a418203234564fec6b50ddabee14757623891fec1c29",
+      "sha256": "69f444f48b1faa902033ff3587d5f9ef66ecdf6474323e083e058fb74de002a4"
+    },
+    {
+      "source": "utils/table_functions.R",
+      "path": "R/table_functions.R",
+      "source_sha256": "52651ac020ae8c1b4d5dfff2ce47203a750eda534e2c7020ec711e11099f508f",
+      "sha256": "7244377fcbc46d610e687946456f2f3fbffaed206152f38e06c362af6544664e"
+    },
+    {
+      "source": "utils/tuning_analysis.R",
+      "path": "R/tuning_analysis.R",
+      "source_sha256": "92b586319177bf3b26e5cd2d346a6de6e54692a24f335eb8f63b845a28059471",
+      "sha256": "e8739b7f61a8568c27fba9ed42b0438e039616d35ed46b9273b10e727f60c083"
+    }
+  ],
+  "omitted_joint_figures": [
+    "code_nutri/simulations/results/Plots_Runtime_Comparison.png",
+    "code_nutri/simulations/results/demo_bias_boxplot_nutri.png",
+    "code_nutri/simulations/results/simI_focal_pctbias.pdf",
+    "code_nutri/simulations/results/simI_focal_pctbias.png",
+    "code_nutri/simulations/results/simI_phase1cov_binomial_pctbias.pdf",
+    "code_nutri/simulations/results/simI_phase1cov_binomial_pctbias.png",
+    "code_nutri/simulations/results/simI_phase1cov_gaussian_pctbias.pdf",
+    "code_nutri/simulations/results/simI_phase1cov_gaussian_pctbias.png",
+    "code_surv/simulations/results/surv_categorical_phase2_pctbias.pdf",
+    "code_surv/simulations/results/surv_categorical_phase2_pctbias.png",
+    "code_surv/simulations/results/surv_continuous_phase2_pctbias.pdf",
+    "code_surv/simulations/results/surv_continuous_phase2_pctbias.png",
+    "code_surv/simulations/results/surv_interaction_pctbias.pdf",
+    "code_surv/simulations/results/surv_interaction_pctbias.png",
+    "code_surv/simulations/results/surv_phase1cov_pctbias.pdf",
+    "code_surv/simulations/results/surv_phase1cov_pctbias.png",
+    "code_vccc/simulations/results/Plots_Runtime_Comparison.png",
+    "code_vccc/simulations/results/Plots_VCCC_Bias_COX.png",
+    "code_vccc/simulations/results/Plots_VCCC_Bias_LM.png",
+    "code_vccc/simulations/results/Plots_VCCC_Bias_LOGISTIC.png",
+    "code_vccc/simulations/results/Plots_VCCC_Density_Imputed.png",
+    "code_vccc/simulations/results/Plots_VCCC_Survival_CD4.png",
+    "code_vccc/simulations/results/vccc_binomial_pctbias.pdf",
+    "code_vccc/simulations/results/vccc_binomial_pctbias.png",
+    "code_vccc/simulations/results/vccc_cox_pctbias.pdf",
+    "code_vccc/simulations/results/vccc_cox_pctbias.png",
+    "code_vccc/simulations/results/vccc_gaussian_pctbias.pdf",
+    "code_vccc/simulations/results/vccc_gaussian_pctbias.png"
+  ],
+  "generated_files": [
+    ".gitattributes",
+    ".gitignore",
+    "pyproject.toml",
+    "README.md",
+    "docs/results.md",
+    "R/plot_available_results.R",
+    "scripts/check_r_syntax.R",
+    "scripts/validate_repository.py",
+    "experiments/nutrition/09_plot_available_results.R",
+    "experiments/survival/09_plot_available_results.R",
+    "experiments/vccc/09_plot_available_results.R",
+    "experiments/nutrition/simulations/results/runtime_comparison.pdf",
+    "experiments/nutrition/simulations/results/summary_metrics.pdf",
+    "experiments/survival/simulations/results/runtime_comparison.pdf",
+    "experiments/vccc/simulations/results/runtime_comparison.pdf",
+    "experiments/vccc/simulations/results/summary_metrics.pdf"
+  ]
+}
